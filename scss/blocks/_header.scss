@@ -1,0 +1,33 @@
+@import "../mixin/mixin";
+
+.header {
+    @include center();
+    @include list();
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.header__list {
+    display: flex;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.header__img {
+    width: 159.95px
+}
+
+.header__list--item {
+    margin-left: 50px;
+    width: 49px;
+    color: white;
+}
+
+.header__button {
+    border-radius: 35px;
+    border:2px solid white;
+    height: 30px;
+    width: 120px;
+    background-color: #014E56;
+    align-items: center;
+}
